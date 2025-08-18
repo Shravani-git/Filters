@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <h1>Apply Filters</h1>
+    </div>
+    <div class="centrediv">
+        <canvas id="imageCanvas"></canvas>
+    </div>
+    <div class="centrediv">
+        <h2>Load an Image</h2>
+    <input type="file" multiple="false"  id="image" class="btn" onchange="loadImage()">
+    </div>
+    <div class="centrediv">
+        <h2>Choose Filter</h2>
+    <input type="button" value="Greyscale" class="btn" onclick="grayscale()">
+    <input type="button" value="Red" class="btn" onclick="red()">
+    <input type="button" value="Yellow" class="btn" onclick="yellow()">
+    <input type="button" value="Golden" class="btn" onclick="golden()">
+    <input type="button" value="Rainbow" class="btn" onclick="rainbow()">
+    <input type="button" value="Blue" class="btn" onclick="custom()">
+    <input type="button" value="Reset" class="btn" onclick="reset()">
+    <input type="button" value="Download Image" class="btn" onclick="downloadImage()">
+
+    </div>
+</body>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script> 
+<script src="/script.js"></script>
+</html>

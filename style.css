@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.camera-container {
+  position: relative;
+  display: inline-block;
+}
+
+video,
+canvas {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.filters,
+.controls {
+  margin: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.photo-booth {
+  margin-top: 20px;
+}
+
+#stripCanvas {
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  background: white;
+}
